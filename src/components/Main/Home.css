@@ -1,0 +1,27 @@
+.hero_page{
+    width: 100%;
+    height: 100vh;
+    background-image:url('../../assets/images/bg_image.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    top: 40px;
+    left: 100px;
+}
+p{
+    color: rgb(84, 81, 81);
+}
+.welcometext{
+
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+
+}

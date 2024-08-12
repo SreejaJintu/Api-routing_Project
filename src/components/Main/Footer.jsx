@@ -1,20 +1,20 @@
-import React from 'react';
-//import { MDBFooter, MDBContainer } from 'mdb-react-ui-kit';
+import React from "react";
+import "./Footer.css";
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <div>
-      footer
-    </div>
-    // <MDBFooter className='text-center text-white' style={{ backgroundColor: '#21081a' }}>
-    //   <MDBContainer className='p-4'></MDBContainer>
-
-    //   <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-    //     © 2020 Copyright:
-    //     <a className='text-white' href='https://mdbootstrap.com/'>
-    //       MDBootstrap.com
-    //     </a>
-    //   </div>
-    // </MDBFooter>
+    <footer className="footer">
+      <div className="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div className="copyright">
+        &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+      </div>
+    </footer>
   );
-}
+};
+
+export default Footer;
