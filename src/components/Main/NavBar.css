@@ -1,0 +1,15 @@
+.bg-body{
+    width: 100%;
+    background-color: #ce8888;
+}
+
+.nav_body{
+    height: 70px;
+    width: 100%;
+    background-color: #ce8888;
+    /* width: 100%; */
+}
+#footer_body{
+    height: 80px;
+    background-color: #975f5f;
+}
