@@ -1,6 +1,6 @@
 .hero_page{
     width: 100%;
-    height: 100vh;
+height:82.5vh;    /* height: 70vh; */
     background-image:url('../../assets/images/bg_image.jpg') ;
     background-size: cover;
     background-position: center;
